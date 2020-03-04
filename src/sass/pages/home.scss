@@ -1,0 +1,43 @@
+.home-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #252935;
+
+  .home-content {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 2.5rem;
+    span {
+      color: #e3256d;
+    }
+    button {
+      width: 25rem;
+      border: 2px solid white;
+      background-color: transparent;
+      color: white;
+      padding: 2rem 4rem;
+      font-size: 2rem;
+      margin-top: 2rem;
+      #arrow-icon {
+        margin-left: 1.5rem;
+        font-size: 2rem;
+      }
+      &:hover {
+        transition: 0.5s ease-in;
+
+        background-color: #34c2c9;
+        border: 2px solid #34c2c9;
+        opacity: 0.9;
+        #arrow-icon {
+          transform: rotate(90deg);
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}
