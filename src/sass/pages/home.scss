@@ -12,10 +12,13 @@
     align-items: center;
     color: #fff;
     font-size: 2.5rem;
+
     span {
       color: #e3256d;
     }
-    button {
+    a {
+      display: flex;
+      text-decoration: none;
       width: 25rem;
       border: 2px solid white;
       background-color: transparent;
@@ -23,19 +26,18 @@
       padding: 2rem 4rem;
       font-size: 2rem;
       margin-top: 2rem;
+      transition: 0.5s ease-in;
       #arrow-icon {
         margin-left: 1.5rem;
         font-size: 2rem;
+        transition: 0.5s;
       }
       &:hover {
-        transition: 0.5s ease-in;
-
         background-color: #34c2c9;
         border: 2px solid #34c2c9;
         opacity: 0.9;
         #arrow-icon {
           transform: rotate(90deg);
-          transition: 0.5s;
         }
       }
     }

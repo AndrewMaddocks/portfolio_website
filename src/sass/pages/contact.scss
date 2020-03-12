@@ -1,0 +1,23 @@
+.contact-container {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #252935;
+
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    // border: 2px solid red;
+    width: 85%;
+    height: 85%;
+    h1 {
+      font-size: 4rem;
+      color: #fff;
+      border-bottom: 4px solid #fff;
+      padding-bottom: 1rem;
+    }
+  }
+}
