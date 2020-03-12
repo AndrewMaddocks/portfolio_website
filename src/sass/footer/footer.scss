@@ -1,10 +1,10 @@
-.portfolio-container {
-  height: 100vh;
+.footer-container {
+  height: 25vh;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  .portfolio-content {
+  background-color: #1b242f;
+  .footer-content {
     display: flex;
     flex-direction: column;
 
@@ -12,11 +12,5 @@
     // border: 2px solid red;
     width: 85%;
     height: 85%;
-    h1 {
-      font-size: 4rem;
-      color: #444649;
-      border-bottom: 4px solid #444649;
-      padding-bottom: 1rem;
-    }
   }
 }
