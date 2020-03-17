@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #252935;
+  background-color: #1c354b;
 
   .home-content {
     padding: 4rem;
@@ -14,7 +14,7 @@
     font-size: 2.5rem;
 
     span {
-      color: #e3256d;
+      color: #fcdd00;
     }
     a {
       display: flex;
@@ -26,18 +26,20 @@
       padding: 2rem 4rem;
       font-size: 2rem;
       margin-top: 2rem;
-      transition: 0.5s ease-in;
+      // transition: 0.5s ease-in;
       #arrow-icon {
         margin-left: 1.5rem;
         font-size: 2rem;
         transition: 0.5s;
       }
       &:hover {
-        background-color: #34c2c9;
-        border: 2px solid #34c2c9;
+        // background-color: #34c2c9;
+        border: 2px solid #fcdd00;
+        color: #fcdd00;
         opacity: 0.9;
         #arrow-icon {
           transform: rotate(90deg);
+          color: #fcdd00;
         }
       }
     }
