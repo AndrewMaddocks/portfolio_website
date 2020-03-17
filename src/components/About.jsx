@@ -12,7 +12,7 @@ function About() {
             <p>
               I'm a full stack web developer from Lehi, Utah. I chose to be a
               developer because I have a beautiful wife that I love and I know I
-              can care for with this carrer. Also, I love to build things and
+              can care for with this career. Also, I love to build things and
               create things for everyone and make my creations accesible to all
               people no matter their disabilities. I also enjoy the satisfaction
               of solving hard problems after what seems to be the end of the
